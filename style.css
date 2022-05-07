@@ -1,0 +1,87 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: rgb(13, 185, 105);
+    color: rgb(0, 0, 0);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    width: 400px;
+}
+.chico {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    width: 400px;
+}
+.mediano {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    width: 400px;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 0.3);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(13, 185, 105);
+    padding: 6rem;
+    color: rgb(0, 0, 0);
+}
+
+footer section {
+    float: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3 ease;
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(235, 86, 0);
+}
